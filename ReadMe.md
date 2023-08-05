@@ -2,7 +2,7 @@
 
 StickerPad brings the age-old joy of collecting and arranging stickers to the digital age, designed especially for kids. Dive into a vibrant world of stickers, where your child can pick from a plethora of designs, drag them onto their personal pad, and craft unique, imaginative scenes. Safe, engaging, and ever-evolving with additional sticker packs, it's an app that grows with your child's imagination.
 
-![StickerPad Mockup](path_to_mockup_image.png) 
+<img alt="StickerPad Mockup" src="https://github.com/chavezucf/StickerPad/blob/main/Assets/logo.png"  width="600" height="600">
 
 ## Features
 
