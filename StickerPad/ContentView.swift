@@ -8,17 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var viewModel = MainStickerPadViewModel(stickerPad: TempData.stickerPads[0])
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MainStickerPadView(viewModel: viewModel)
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
+
